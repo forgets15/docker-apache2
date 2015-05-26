@@ -5,7 +5,7 @@ Build
 -----
 
 ```
-sudo docker build -no-cache -f Dockerfile -t forgets15/apache2:v0.0.3 .
+docker build -no-cache -f Dockerfile -t forgets15/apache2:v0.0.3 .
 ```
 
 Run
