@@ -5,14 +5,14 @@ Build
 -----
 
 ```
-sudo docker build -no-cache -f Dockerfile -t forgets15/apache2:v0.0.3 .
+docker build -no-cache -f Dockerfile -t forgets15/apache2:v0.0.4 .
 ```
 
 Run
 ---
 
 ```
-docker run -p 8888:80 -it --rm forgets15/apache2:v0.0.3
+docker run -p 8888:80 -it --rm forgets15/apache2:v0.0.4
 ```
 
 Test
